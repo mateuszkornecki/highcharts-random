@@ -1,0 +1,27 @@
+{
+   "name": "highcharts-random",
+   "version": "0.0.1",
+   "description": "generate random data for the highcharts series",
+   "main": "main.js",
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+     "type": "git",
+     "url": "git+https://github.com/mateuszkornecki/highcharts-random.git"
+   },
+   "keywords": [
+     "highcharts",
+     "chart",
+     "random",
+     "data",
+     "stock"
+   ],
+   "author": "Mateusz Kornecki",
+   "license": "MIT",
+   "bugs": {
+     "url": "https://github.com/mateuszkornecki/highcharts-random/issues"
+   },
+   "homepage": "https://github.com/mateuszkornecki/highcharts-random#readme"
+ }
+ 
