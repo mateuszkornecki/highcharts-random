@@ -2,7 +2,7 @@
   "name": "highcharts-random",
   "version": "0.0.1",
   "description": "generate random data for the highcharts series",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
