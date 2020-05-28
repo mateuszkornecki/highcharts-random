@@ -26,3 +26,14 @@ const random = require('./index');
    });
  
  });
+
+ describe('color()', () => {
+   const randomColor = random.color();
+
+  test('should return a string', () => {
+   expect(typeof randomColor).toBe('string');;
+  });
+
+  test.todo('should return a correct rgb format')
+
+});
