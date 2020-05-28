@@ -1,12 +1,5 @@
 const random = require('./index');
 
-test('numberBetween()', () => {
-   const numberBetween0and10 = random.numberBetween()
-
-   expect(typeof numberBetween0and10).toBe('number');
-   
- });
-
  describe('numberBetween()', () => {
    const numberBetween0and10 = random.numberBetween()
 
