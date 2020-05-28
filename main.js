@@ -17,6 +17,7 @@ function data(length = 10, min, max ) {
    for (let i = 0; i < length; i++) {
       data.push(numberBetween(min, max));
    }
+   return data;
 }; 
 
 function color() {
