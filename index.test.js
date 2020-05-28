@@ -12,3 +12,17 @@ const random = require('./index');
       expect(numberBetween0and10).toBeLessThanOrEqual(10);
    });
  });
+
+ describe('data()', () => {
+    const randomData = random.data();
+
+   test('should return an array', () => {
+      const isArray = Array.isArray(randomData);
+      expect(isArray).toBe(true);
+   });
+
+   test('returned array length should be equal 10 ', () => {
+      expect(randomData.length).toBe(10);
+   });
+ 
+ });
