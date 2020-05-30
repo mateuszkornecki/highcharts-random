@@ -2,9 +2,10 @@
 
 const random = (function () {
    return {
-      numberBetween: numberBetween,
+      color: color,
       data: data,
-      color: color
+      numberBetween: numberBetween,
+      timeData: timeData
      }
  })();
 
@@ -21,11 +22,10 @@ function data(length = 10, min, max ) {
 }; 
 
 function timeData(length = 10, min, max) {
-   const data = [];
-   for (let i = 0; i < length; i++) {
-      data.push([Data.UTC(2020,1,i), numberBetween(min, max)]);
-   }
-   return data;
+   const timeData = data(length, min, max);
+   timeData.map((data, index) => [Date.UTC(2020, 0, index), ...data]);
+
+   return timeData;
 }; 
 
 function color() {
