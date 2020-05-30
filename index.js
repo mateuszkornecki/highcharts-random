@@ -20,6 +20,14 @@ function data(length = 10, min, max ) {
    return data;
 }; 
 
+function timeData(length = 10, min, max) {
+   const data = [];
+   for (let i = 0; i < length; i++) {
+      data.push([Data.UTC(2020,1,i), numberBetween(min, max)]);
+   }
+   return data;
+}; 
+
 function color() {
    return `rgb(
          ${numberBetween(0, 255)},
