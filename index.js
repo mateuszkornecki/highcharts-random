@@ -25,7 +25,7 @@ function timeData(length = 10, min, max) {
    const timeData = data(length, min, max);
    timeData.map((data, index) => [Date.UTC(2020, 0, index), ...data]);
 
-   return timeData;
+   return timeData.map((data, index) => [Date.UTC(2020, 0, index), ...data]);
 }; 
 
 function color() {
