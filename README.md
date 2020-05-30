@@ -13,5 +13,5 @@ Live demo: https://jsfiddle.net/mateuszkornecki/c0pt8kse/
 
 - `random.color()` 
 - `random.numberBetween(min? = 0, max? = 10)`
-- `random.data(length = 10, min, max)`
+- `random.data(length = 10, min?, max?)`
 - `random.timeData(length? = 10, min?, max?)`
