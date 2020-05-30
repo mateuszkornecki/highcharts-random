@@ -1,6 +1,6 @@
 {
   "name": "highcharts-random",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "generate random data for the highcharts series",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,7 @@
   "devDependencies": {
     "jest": "^26.0.1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+   "registry": "https://registry.npmjs.org/"
+ }
 }
