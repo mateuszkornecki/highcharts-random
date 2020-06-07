@@ -4,14 +4,14 @@ Lightweight javascript library that allow you to generate a random data series w
 
 ## Usage
 
-First install the package:
+First install the package:<br>
 `npm install highcharts-random`
 
-Then import it using the ES6 modules or CommonJS
-`import random from 'highcharts-random`
-`const random = require('highcharts-random)`
+Then import it using the ES6 modules or CommonJS<br>
+`import random from 'highcharts-random`<br>
+`const random = require('highcharts-random)`<br>
 
-Alternatively, you can use unpkg to import the package using a URL:
+Alternatively, you can use unpkg to import the package using a URL:<br>
 `<script src="https://unpkg.com/highcharts-random>`
 
 Live demo: https://jsfiddle.net/mateuszkornecki/p2ojweLb/
