@@ -12,7 +12,7 @@ Then import it using the ES6 modules or CommonJS<br>
 `const random = require('highcharts-random)`<br>
 
 Alternatively, you can use unpkg to import the package using a URL:<br>
-`<script src="https://unpkg.com/highcharts-random>`
+`<script src="https://unpkg.com/highcharts-random">`
 
 Live demo: https://jsfiddle.net/mateuszkornecki/p2ojweLb/
 
