@@ -35,4 +35,4 @@ function color() {
      `;
 }
 
-export default random;
+module.exports = random;
