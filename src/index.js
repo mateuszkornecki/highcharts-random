@@ -34,3 +34,5 @@ function color() {
          ${numberBetween(0, 255)})
      `;
 }
+
+export default random;
