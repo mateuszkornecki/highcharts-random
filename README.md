@@ -14,7 +14,7 @@ Then import it using the ES6 modules or CommonJS
 Alternatively, you can use unpkg to import the package using a URL:
 `<script src="https://unpkg.com/highcharts-random>`
 
-Live demo: https://jsfiddle.net/mateuszkornecki/c0pt8kse/
+Live demo: https://jsfiddle.net/mateuszkornecki/p2ojweLb/
 
 ## Avialable methods
 
